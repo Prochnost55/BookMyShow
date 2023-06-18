@@ -3,5 +3,6 @@ package models;
 public enum SeatType {
     GOLD,
     PLATINUM,
-    VIP
+    VIP,
+    SILVER
 }

@@ -1,7 +1,7 @@
 package models;
 
-public enum SeatBookingStatus {
+public enum ShowSeatState {
     BOOKED,
     AVAILABLE,
-    LOCKED
+    LOCKED,
 }

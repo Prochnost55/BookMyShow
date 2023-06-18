@@ -4,29 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2ae6a9-5eb0-4fa2-84b7-20dfe71cdc03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMyShow.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Auditorium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Feature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/SeatBookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/SeatStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/SeatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ShowSeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
+    <list default="true" id="1c2ae6a9-5eb0-4fa2-84b7-20dfe71cdc03" name="Changes" comment="initial setup">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/BookMyShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/ScreenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/ShowSeatState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/ShowSeatType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/TicketStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookMyShow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Auditorium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Auditorium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Feature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Feature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/SeatBookingStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/SeatStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/SeatStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/SeatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/SeatType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ShowSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ShowSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +61,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="models" />
@@ -82,11 +96,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686825774618</updated>
-      <workItem from="1686825776085" duration="2447000" />
+      <workItem from="1686825776085" duration="4408000" />
+      <workItem from="1686976528015" duration="2765000" />
+      <workItem from="1687065686357" duration="4281000" />
     </task>
+    <task id="LOCAL-00001" summary="initial setup">
+      <created>1686829674339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686829674339</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial setup" />
   </component>
 </project>
